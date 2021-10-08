@@ -1,0 +1,10 @@
+C:\Users\Rice Cipriani\Il mio Drive\Progetti\Smtp via Socket 2\Smtp via SOcket 2\obj\Debug\Smtp via SOcket 2.csproj.AssemblyReference.cache
+C:\Users\Rice Cipriani\Il mio Drive\Progetti\Smtp via Socket 2\Smtp via SOcket 2\obj\Debug\Smtp_via_SOcket_2.Form1.resources
+C:\Users\Rice Cipriani\Il mio Drive\Progetti\Smtp via Socket 2\Smtp via SOcket 2\obj\Debug\Smtp_via_SOcket_2.Properties.Resources.resources
+C:\Users\Rice Cipriani\Il mio Drive\Progetti\Smtp via Socket 2\Smtp via SOcket 2\obj\Debug\Smtp via SOcket 2.csproj.GenerateResource.cache
+C:\Users\Rice Cipriani\Il mio Drive\Progetti\Smtp via Socket 2\Smtp via SOcket 2\obj\Debug\Smtp via SOcket 2.csproj.CoreCompileInputs.cache
+C:\Users\Rice Cipriani\Il mio Drive\Progetti\Smtp via Socket 2\Smtp via SOcket 2\bin\Debug\Smtp via SOcket 2.exe.config
+C:\Users\Rice Cipriani\Il mio Drive\Progetti\Smtp via Socket 2\Smtp via SOcket 2\bin\Debug\Smtp via SOcket 2.exe
+C:\Users\Rice Cipriani\Il mio Drive\Progetti\Smtp via Socket 2\Smtp via SOcket 2\bin\Debug\Smtp via SOcket 2.pdb
+C:\Users\Rice Cipriani\Il mio Drive\Progetti\Smtp via Socket 2\Smtp via SOcket 2\obj\Debug\Smtp via SOcket 2.exe
+C:\Users\Rice Cipriani\Il mio Drive\Progetti\Smtp via Socket 2\Smtp via SOcket 2\obj\Debug\Smtp via SOcket 2.pdb
