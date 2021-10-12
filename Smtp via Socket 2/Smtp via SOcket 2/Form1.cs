@@ -30,7 +30,7 @@ namespace Smtp_via_SOcket_2
             IPEndPoint remoteEP = new IPEndPoint(ipAddress, int.Parse(textBox2.Text));
             // Create a TCP/IP  socket.  
             client = new Socket(ipAddress.AddressFamily,
-                SocketType.Stream, ProtocolType.Tcp);
+                SocketType.Stream, ProtocolType.Udp);
 
             try
             {
