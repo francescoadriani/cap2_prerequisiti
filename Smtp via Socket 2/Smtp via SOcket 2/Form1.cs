@@ -14,7 +14,7 @@ namespace Smtp_via_SOcket_2
 {
     public partial class Form1 : Form
     {
-        public Socket client = null;
+        public SocketSSL client = null;
         public Form1()
         {
             InitializeComponent();
@@ -29,8 +29,8 @@ namespace Smtp_via_SOcket_2
             IPAddress ipAddress = ipHostInfo.AddressList[0];
             IPEndPoint remoteEP = new IPEndPoint(ipAddress, int.Parse(textBox2.Text));
             // Create a TCP/IP  socket.  
-            client = new Socket(ipAddress.AddressFamily,
-                SocketType.Stream, ProtocolType.Udp);
+            client = new SocketSSL(textBox1.Text, ipAddress.AddressFamily,
+                SocketType.Stream, ProtocolType.Tcp);
 
             try
             {
@@ -38,13 +38,13 @@ namespace Smtp_via_SOcket_2
 
                 button1.Enabled = false;
 
-                byte[] msg = Encoding.ASCII.GetBytes("HELO Smtp via Socket v2" + Environment.NewLine);
+                byte[] msg = Encoding.ASCII.GetBytes("HELO SmtpViaSocketV2" + Environment.NewLine);
                 int bytesSent = client.Send(msg);
                 int bytesRec = client.Receive(bytes);
                 String message = Encoding.ASCII.GetString(bytes, 0, bytesRec);
                 listBox1.Items.Add(message);
 
-                msg = Encoding.ASCII.GetBytes("EHLO " + textBox3.Text + Environment.NewLine);
+                msg = Encoding.ASCII.GetBytes("EHLO SmtpViaSocketV2" + Environment.NewLine); //textBox3.Text + 
                 bytesSent = client.Send(msg);
                 bytesRec = client.Receive(bytes);
                 message = Encoding.ASCII.GetString(bytes, 0, bytesRec);
@@ -68,13 +68,13 @@ namespace Smtp_via_SOcket_2
                 message = Encoding.ASCII.GetString(bytes, 0, bytesRec);
                 listBox1.Items.Add(message);
 
-                msg = Encoding.ASCII.GetBytes("MAIL FROM: "  + textBox5.Text + Environment.NewLine);
+                msg = Encoding.ASCII.GetBytes("MAIL FROM: <" + textBox5.Text + ">" + Environment.NewLine);
                 bytesSent = client.Send(msg);
                 bytesRec = client.Receive(bytes);
                 message = Encoding.ASCII.GetString(bytes, 0, bytesRec);
                 listBox1.Items.Add(message);
 
-                msg = Encoding.ASCII.GetBytes("RCPT TO:" + textBox6.Text + Environment.NewLine);
+                msg = Encoding.ASCII.GetBytes("RCPT TO: <" + textBox6.Text + ">" + Environment.NewLine);
                 bytesSent = client.Send(msg);
                 bytesRec = client.Receive(bytes);
                 message = Encoding.ASCII.GetString(bytes, 0, bytesRec);
@@ -103,6 +103,7 @@ namespace Smtp_via_SOcket_2
 
             }
         }
+
         public static string Base64Encode(string plainText)
         {
             var plainTextBytes = System.Text.Encoding.UTF8.GetBytes(plainText);
