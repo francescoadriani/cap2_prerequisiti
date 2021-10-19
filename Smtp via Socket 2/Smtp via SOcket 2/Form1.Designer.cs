@@ -50,10 +50,10 @@ namespace Smtp_via_SOcket_2
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(395, 308);
+            this.button1.Location = new System.Drawing.Point(444, 385);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(223, 62);
+            this.button1.Size = new System.Drawing.Size(251, 78);
             this.button1.TabIndex = 0;
             this.button1.Text = "Invia";
             this.button1.UseVisualStyleBackColor = true;
@@ -62,63 +62,63 @@ namespace Smtp_via_SOcket_2
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(321, 21);
+            this.label2.Location = new System.Drawing.Point(361, 26);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 17);
+            this.label2.Size = new System.Drawing.Size(47, 20);
             this.label2.TabIndex = 8;
             this.label2.Text = "Porta";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(321, 39);
+            this.textBox2.Location = new System.Drawing.Point(361, 49);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(80, 22);
+            this.textBox2.Size = new System.Drawing.Size(90, 26);
             this.textBox2.TabIndex = 7;
             this.textBox2.Text = "465";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(19, 21);
+            this.label1.Location = new System.Drawing.Point(21, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 17);
+            this.label1.Size = new System.Drawing.Size(70, 20);
             this.label1.TabIndex = 6;
             this.label1.Text = "Ip server";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(19, 39);
+            this.textBox1.Location = new System.Drawing.Point(21, 49);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(297, 22);
+            this.textBox1.Size = new System.Drawing.Size(334, 26);
             this.textBox1.TabIndex = 5;
             this.textBox1.Text = "smtp.gmail.com";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(19, 71);
+            this.label3.Location = new System.Drawing.Point(21, 89);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 17);
+            this.label3.Size = new System.Drawing.Size(43, 20);
             this.label3.TabIndex = 10;
             this.label3.Text = "User";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(19, 90);
+            this.textBox3.Location = new System.Drawing.Point(21, 112);
             this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(297, 22);
+            this.textBox3.Size = new System.Drawing.Size(334, 26);
             this.textBox3.TabIndex = 9;
             this.textBox3.Text = "francesco.adriani@franchettisalviani.net";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(321, 71);
+            this.label4.Location = new System.Drawing.Point(361, 89);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 17);
+            this.label4.Size = new System.Drawing.Size(78, 20);
             this.label4.TabIndex = 12;
             this.label4.Text = "Password";
             // 
@@ -126,38 +126,38 @@ namespace Smtp_via_SOcket_2
             // 
             this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox4.Location = new System.Drawing.Point(321, 90);
+            this.textBox4.Location = new System.Drawing.Point(361, 112);
             this.textBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox4.Name = "textBox4";
             this.textBox4.PasswordChar = '*';
-            this.textBox4.Size = new System.Drawing.Size(297, 22);
+            this.textBox4.Size = new System.Drawing.Size(334, 26);
             this.textBox4.TabIndex = 11;
-            this.textBox4.Text = "o3Cd!0pt";
+            this.textBox4.Text = "password";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(19, 122);
+            this.label5.Location = new System.Drawing.Point(21, 152);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 17);
+            this.label5.Size = new System.Drawing.Size(67, 20);
             this.label5.TabIndex = 14;
             this.label5.Text = "Mittente";
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(19, 141);
+            this.textBox5.Location = new System.Drawing.Point(21, 176);
             this.textBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(297, 22);
+            this.textBox5.Size = new System.Drawing.Size(334, 26);
             this.textBox5.TabIndex = 13;
             this.textBox5.Text = "francesco.adriani@franchettisalviani.net";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(321, 122);
+            this.label6.Location = new System.Drawing.Point(361, 152);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(84, 17);
+            this.label6.Size = new System.Drawing.Size(95, 20);
             this.label6.TabIndex = 16;
             this.label6.Text = "Destinatario";
             // 
@@ -165,10 +165,10 @@ namespace Smtp_via_SOcket_2
             // 
             this.textBox6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox6.Location = new System.Drawing.Point(321, 141);
+            this.textBox6.Location = new System.Drawing.Point(361, 176);
             this.textBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(297, 22);
+            this.textBox6.Size = new System.Drawing.Size(334, 26);
             this.textBox6.TabIndex = 15;
             this.textBox6.Text = "francesco.adriani@franchettisalviani.net";
             // 
@@ -176,11 +176,11 @@ namespace Smtp_via_SOcket_2
             // 
             this.textBox18.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox18.Location = new System.Drawing.Point(19, 194);
+            this.textBox18.Location = new System.Drawing.Point(21, 242);
             this.textBox18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox18.Multiline = true;
             this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(600, 110);
+            this.textBox18.Size = new System.Drawing.Size(674, 136);
             this.textBox18.TabIndex = 17;
             this.textBox18.TabStop = false;
             this.textBox18.Text = "From: francesco.adriani@franchettisalviani.net\r\nTo: francesco.adrianifranchettisa" +
@@ -189,9 +189,9 @@ namespace Smtp_via_SOcket_2
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(21, 175);
+            this.label7.Location = new System.Drawing.Point(24, 219);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(109, 17);
+            this.label7.Size = new System.Drawing.Size(121, 20);
             this.label7.TabIndex = 18;
             this.label7.Text = "Corpo della mail";
             // 
@@ -203,18 +203,18 @@ namespace Smtp_via_SOcket_2
             this.listBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.HorizontalScrollbar = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(19, 390);
+            this.listBox1.ItemHeight = 20;
+            this.listBox1.Location = new System.Drawing.Point(21, 488);
             this.listBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(600, 84);
+            this.listBox1.Size = new System.Drawing.Size(674, 104);
             this.listBox1.TabIndex = 19;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(639, 482);
+            this.ClientSize = new System.Drawing.Size(719, 602);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox18);
