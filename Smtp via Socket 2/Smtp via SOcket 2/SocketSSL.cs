@@ -18,9 +18,11 @@ namespace Smtp_via_SOcket_2
         private Socket socket;
         Stream networkStream;
         SslStream sslStream;
+        String serverNameForCertificate;
         public SocketSSL(String serverNameForCertificate, AddressFamily addressFamily, SocketType socketType, ProtocolType protocolType)
         {
             socket = new Socket(addressFamily, socketType, protocolType);
+            this.serverNameForCertificate = serverNameForCertificate;
         }
 
         public void Connect(EndPoint endPoint )
@@ -39,7 +41,7 @@ namespace Smtp_via_SOcket_2
 
             try
             {
-                sslStream.AuthenticateAsClient("smtp.gmail.com");
+                sslStream.AuthenticateAsClient(serverNameForCertificate);
             }
             catch (AuthenticationException e)
             {
